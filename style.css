@@ -1,0 +1,63 @@
+/* common styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+    color: white;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.des-primary {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px;
+}
+
+.title-primary {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+/* header section */
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 240px 0px 240px;
+}
+
+.header-column-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 700px;
+    margin-bottom: 0px;
+}
+.h-column-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 630px;
+    margin: 32px 0px;
+}
+
+/* featured flowers section */
+.featured-flowers{
+    margin: 0px 240px;
+    text-align: center;
+}
