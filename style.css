@@ -1,4 +1,7 @@
 /* common styles */
+*{
+    margin:0;
+}
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -137,6 +140,26 @@ header {
 
 .social-section-dets {
     text-align: center;
+}
+
+/* subscribe section */
+.subscribe-section {
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    margin: 0px 240px 128px;
+    text-align: center;
+    padding: 120px 287px;
+}
+
+.subs-inputs input {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px 450px 22px 22px;
+    border:0px;
+    margin-right: 16px;
+    margin-top:30px;
 }
 
 /* footer section */
